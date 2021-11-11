@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+        <div class="container">
+            <h1>Microondas</h1>
+            <div class="components">
+                <div id="menu">
+                    
+                    <label for="opcao">Digite o valor do prato que quer preparar</label>
+                    <ol>
+                        <li>Pipoca</li>
+                        <li>Macarrão</li>
+                        <li>Carne</li>
+                        <li>Feijão</li>
+                        <li>Brigadeiro</li>
+                    </ol>
+                    
+                    <input type="number" name="opcao" id="opcaoPrato">
+                </div>
+                <div id="tempo">
+                    <label for="tempoDePreparo">Digite o tempo de preparo</label>
+                    <p></p>
+                    <input type="number" name="tempoDePreparo" id="tempoDePreparo">
+                </div>
+                <div class="botoes">
+                    <button type="submit" onclick="microondas()">Iniciar</button>
+                </div>
+                
+            </div>
+            <div id="resultado">
+
+            </div>
+
+        </div>
+    <script src="JS/script.js"></script>
+</body>
+</html>

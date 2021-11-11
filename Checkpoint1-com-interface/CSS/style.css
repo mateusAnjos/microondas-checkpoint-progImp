@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightgrey;
+}
+.container{
+    background-color: white;
+    border: black 1px solid;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    padding: 1rem;
+    border-radius: 15px;
+
+}
+h1{
+    text-align: center;
+}
+.components{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+ol{
+    margin-left: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#resultado{
+    display: none;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin-top: 5px;
+    justify-content: center;
+    padding: 5px;
+    width: 102%;
+
+}
+.botoes{
+    margin-top: 5px;
+}
+button{
+    width: 200%;
+    height: 40px;
+    border-radius: 15px;
+}
+#menu{
+    border: 1px black solid;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+#tempo{
+    border: 1px black solid;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 15px;
+}
